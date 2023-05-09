@@ -1,6 +1,8 @@
 Eixo 5 - Projeto Arquitetura de Dados em Nuvem 
  
+ 
 Grupo 1 - Integrantes: Tayrini Martins, Daniella Borba e Lindomar Fontes. 
+
 
 RESUMO  
 
@@ -28,9 +30,11 @@ Essa ferramenta, que no presente trabalho será feita utilizando o Software POWE
 
 Essa compreensão é essencial, pois além de possuir grande valor teórico e prático no estabelecimento de ações de extensão em suas diversas modalidades e políticas públicas, pode ser de grande relevância para auxiliar que decisões em relação a ações futuras no contexto da educação superior sejam tomadas com maior assertividade, já que as mesmas poderão ter como base os resultados das ações implementadas no passado, que serão evidenciados pelos dados. 
 
+
 OBJETIVO GERAL 
 
 Este trabalho visa avaliar o perfil dos ingressantes no ensino superior no Brasil, no período de 2017 a 2021, a fim de realizar uma análise comparativa. 
+
 
 OBJETIVOS ESPECÍFICOS 
 
@@ -57,3 +61,8 @@ NÚMERO DE INGRESSOS EM CURSOS DE GRADUAÇÃO, POR MODALIDADE DE ENSINO – 2017
 NÚMERO DE INGRESSOS EM CURSOS DE GRADUAÇÃO, POR CATEGORIA ADMINISTRATIVA – 2017-2021 
 
 NÚMERO DE INGRESSOS EM CURSOS DE GRADUAÇÃO, POR GRAU ACADÊMICO – 2017-2021 
+
+
+ETAPA DE ETL
+
+Para etapa de ETL, utilizamos o data factory, ferramenta disponibilizada pela Azure para integração e construção de processos de ETL sem a necessidade de criar codigos. Durante o pipeline de ETL, os dados de destino sao armazenados e transformados. Com isso, foi possivel, além de agregar os dados nos anos referentes à base, tratar as datas e os quantitativos, transformando as colunas do tipo string para  int ou float, com o objetivo de possibilitar o manuseio e posteriores cálculos que fossem necessários. Cabe ainda ressaltar que, para tanto, foi necessario também criar um blob storage para armazenar os arquivos que passsariam pelo processo de transformação.
