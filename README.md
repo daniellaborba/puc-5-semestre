@@ -72,6 +72,7 @@ MODELO DE PREVISÃO
 Para essa etapa, utilizamos o modelo de previsão de série temporal disponível no Excel. A previsão de série temporal é uma técnica utilizada para analisar tendências, ciclos e padrões em dados ao longo do tempo para prever o futuro. Isso é muito útil para uma variedade de campos, incluindo finanças, economia, meteorologia, planejamento de demanda e muito mais. No contexto do Excel, a previsão de série temporal pode ser realizada usando várias funções e ferramentas incorporadas. Em versões mais recentes do Excel (2016 em diante), há uma funcionalidade chamada "Previsão.ETS" que facilita a realização de previsões de séries temporais.
 Aqui está uma explicação mais detalhada de como ela funciona:
 
+**Funcionalidade Previsão.ETS**: Esta é uma família de funções que permite prever valores futuros com base em dados históricos. ETS significa "Erro, Tendência, Sazonalidade", que são os três componentes de uma série temporal.
 **Previsão.ETS.ESTAT()**: Esta função retorna estatísticas sobre a qualidade do ajuste da previsão ao histórico de dados.
 
 Vale ressaltar que a previsão de séries temporais é uma técnica estatística avançada, e sua eficácia pode ser limitada por vários fatores, incluindo a qualidade dos dados históricos, a presença de tendências ou padrões não lineares e eventos imprevistos que podem afetar a série temporal.
