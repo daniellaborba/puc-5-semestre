@@ -66,3 +66,13 @@ NÚMERO DE INGRESSOS EM CURSOS DE GRADUAÇÃO, POR GRAU ACADÊMICO – 2017-2021
 ETAPA DE ETL
 
 Para etapa de ETL, utilizamos o data factory, ferramenta disponibilizada pela Azure para integração e construção de processos de ETL sem a necessidade de criar codigos. Durante o pipeline de ETL, os dados de destino sao armazenados e transformados. Com isso, foi possivel, além de agregar os dados nos anos referentes à base, tratar as datas e os quantitativos, transformando as colunas do tipo string para  int ou float, com o objetivo de possibilitar o manuseio e posteriores cálculos que fossem necessários. Cabe ainda ressaltar que, para tanto, foi necessario também criar um blob storage para armazenar os arquivos que passsariam pelo processo de transformação.
+
+MODELO DE PREVISÃO
+
+Para essa etapa, utilizamos o modelo de previsão de série temporal disponível no Excel. A previsão de série temporal é uma técnica utilizada para analisar tendências, ciclos e padrões em dados ao longo do tempo para prever o futuro. Isso é muito útil para uma variedade de campos, incluindo finanças, economia, meteorologia, planejamento de demanda e muito mais. No contexto do Excel, a previsão de série temporal pode ser realizada usando várias funções e ferramentas incorporadas. Em versões mais recentes do Excel (2016 em diante), há uma funcionalidade chamada "Previsão.ETS" que facilita a realização de previsões de séries temporais.
+Aqui está uma explicação mais detalhada de como ela funciona:
+
+**Previsão.ETS.ESTAT()**: Esta função retorna estatísticas sobre a qualidade do ajuste da previsão ao histórico de dados.
+
+Vale ressaltar que a previsão de séries temporais é uma técnica estatística avançada, e sua eficácia pode ser limitada por vários fatores, incluindo a qualidade dos dados históricos, a presença de tendências ou padrões não lineares e eventos imprevistos que podem afetar a série temporal.
+
