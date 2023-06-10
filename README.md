@@ -77,3 +77,38 @@ Aqui está uma explicação mais detalhada de como ela funciona:
 
 Vale ressaltar que a previsão de séries temporais é uma técnica estatística avançada, e sua eficácia pode ser limitada por vários fatores, incluindo a qualidade dos dados históricos, a presença de tendências ou padrões não lineares e eventos imprevistos que podem afetar a série temporal.
 
+-----------------------------------------------------------------------------  ETAPA 5 --------------------------------------------------------------------------]
+
+ANÁLISE DOS RESULTADOS
+
+A acurácia e a eficácia são métricas utilizadas para avaliar a qualidade de previsões em modelos estatísticos e de aprendizado de máquina. No contexto da previsão de dados no Excel, a acurácia refere-se à proximidade entre os valores previstos e os valores reais. A eficácia, por outro lado, mede a capacidade do modelo de fazer previsões consistentes e confiáveis ao longo do tempo.
+
+No arquivo preivisao_alunos.xlsx, temos os valores previstos para o número de alunos em cada ano até 2025. Essas previsões foram geradas pela aplicação de previsão do Excel, usando os dados históricos de anos anteriores. As métricas fornecidas (Alpha, Beta, Gamma, MASE, SMAPE, MAE e RMSE) são comumente usadas para avaliar a acurácia e a eficácia das previsões.
+
+Alpha e Beta: Esses valores indicam a precisão e a tendência das previsões em relação aos dados reais. No caso em questão, ambos são zero, o que sugere que as previsões estão próximas dos valores reais e não apresentam tendências significativas.
+
+Gamma: O valor de 0,13 indica uma sazonalidade nas previsões, ou seja, há uma variação previsível no número de alunos ao longo do tempo.
+
+MASE (Mean Absolute Scaled Error): Essa métrica avalia a acurácia das previsões, normalizando o erro absoluto médio em relação à variabilidade dos dados. Um valor de 0,21 indica que as previsões têm um erro médio absoluto relativamente baixo em comparação com a variabilidade dos dados.
+
+SMAPE (Symmetric Mean Absolute Percentage Error): Essa métrica mede a acurácia percentual das previsões, considerando a simetria entre valores previstos e reais. Um valor de 0 indica que as previsões estão perfeitamente alinhadas com os valores reais.
+
+MAE (Mean Absolute Error) e RMSE (Root Mean Square Error): Essas métricas avaliam o erro médio absoluto e o erro quadrático médio das previsões, respectivamente. Valores de MAE e RMSE maiores indicam uma maior dispersão entre as previsões e os valores reais.
+
+Com base nas métricas fornecidas, as previsões obtidas parecem ser razoavelmente precisas, com baixos erros médios absolutos e uma boa aderência aos valores reais. No entanto, é importante ressaltar que a precisão e a eficácia das previsões dependem do contexto específico e dos dados disponíveis. Portanto, é sempre recomendável realizar uma análise mais aprofundada e considerar outros fatores relevantes.
+
+A matriz de confusão é uma ferramenta comumente utilizada para avaliar a qualidade de previsões em problemas de classificação, onde se categorizam dados em classes distintas. No caso apresentado, como estamos lidando com previsões de valores numéricos contínuos, a matriz de confusão não é diretamente aplicável.
+
+Para melhorar os resultados e torná-los mais fidedignos, algumas sugestões podem ser consideradas:
+
+Utilizar mais dados históricos: Se possível, coletar e incorporar mais anos de dados históricos para treinar o modelo de previsão. Quanto mais dados disponíveis, maior a probabilidade de obter previsões mais precisas.
+
+Considerar fatores externos: Analisar se existem fatores externos que influenciam o número de alunos, como políticas governamentais, mudanças demográficas, tendências socioeconômicas, entre outros. Incorporar esses fatores no modelo pode melhorar a precisão das previsões.
+
+Avaliar diferentes modelos: Experimentar diferentes técnicas de previsão disponíveis no Excel ou em outras ferramentas para identificar o modelo mais adequado ao conjunto de dados e ao objetivo específico da previsão.
+
+Realizar validação cruzada: Dividir os dados disponíveis em conjuntos de treinamento e teste e realizar validação cruzada para avaliar a performance do modelo em diferentes cenários. Isso ajuda a identificar possíveis problemas de overfitting e a obter uma estimativa mais confiável da acurácia das previsões.
+
+Monitorar e ajustar o modelo: À medida que novos dados se tornam disponíveis, é importante monitorar regularmente as previsões e ajustar o modelo conforme necessário. Isso permite adaptar o modelo às mudanças e garantir que as previsões permaneçam precisas ao longo do tempo.
+
+Em resumo, as métricas fornecidas e as previsões obtidas sugerem que o modelo utilizado no Excel para prever o número de alunos apresenta resultados promissores. No entanto, é sempre importante analisar as métricas em conjunto com outros fatores e buscar maneiras de melhorar a precisão e a eficácia das previsões, levando em consideração as especificidades do problema em questão.
