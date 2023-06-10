@@ -111,4 +111,8 @@ Realizar validação cruzada: Dividir os dados disponíveis em conjuntos de trei
 
 Monitorar e ajustar o modelo: À medida que novos dados se tornam disponíveis, é importante monitorar regularmente as previsões e ajustar o modelo conforme necessário. Isso permite adaptar o modelo às mudanças e garantir que as previsões permaneçam precisas ao longo do tempo.
 
+É importante considerar o possível impacto da pandemia nos dados fornecidos de previsão de alunos. A pandemia da COVID-19 teve um efeito significativo no setor educacional em todo o mundo, levando ao fechamento temporário de escolas, adoção de ensino remoto e mudanças nas dinâmicas de matrícula dos alunos.
+
+No contexto das previsões de alunos, a pandemia pode ter causado interrupções e alterações no número de matrículas, o que pode afetar a precisão das previsões feitas com base nos dados históricos anteriores à pandemia. Todavia, considerando o recorte de dados utilizados, não foi possível identificar se a diminuição do número de alunos em 2021 foi reflexo da pandemia. Caso fosse identificado que o número de alunos foi impactado por esse período, esses dados deveriam ser trabalhados de uma forma diferente (outliers).
+
 Em resumo, as métricas fornecidas e as previsões obtidas sugerem que o modelo utilizado no Excel para prever o número de alunos apresenta resultados promissores. No entanto, é sempre importante analisar as métricas em conjunto com outros fatores e buscar maneiras de melhorar a precisão e a eficácia das previsões, levando em consideração as especificidades do problema em questão.
