@@ -77,7 +77,7 @@ Aqui está uma explicação mais detalhada de como ela funciona:
 
 Vale ressaltar que a previsão de séries temporais é uma técnica estatística avançada, e sua eficácia pode ser limitada por vários fatores, incluindo a qualidade dos dados históricos, a presença de tendências ou padrões não lineares e eventos imprevistos que podem afetar a série temporal.
 
------------------------------------------------------------------------------  ETAPA 5 --------------------------------------------------------------------------]
+-----------------------------------------------------------------------------  ETAPA 5 ----------------------------------------------------------------------
 
 ANÁLISE DOS RESULTADOS
 
