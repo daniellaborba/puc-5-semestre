@@ -116,3 +116,17 @@ Monitorar e ajustar o modelo: À medida que novos dados se tornam disponíveis, 
 No contexto das previsões de alunos, a pandemia pode ter causado interrupções e alterações no número de matrículas, o que pode afetar a precisão das previsões feitas com base nos dados históricos anteriores à pandemia. Todavia, considerando o recorte de dados utilizados, não foi possível identificar se a diminuição do número de alunos em 2021 foi reflexo da pandemia. Caso fosse identificado que o número de alunos foi impactado por esse período, esses dados deveriam ser trabalhados de uma forma diferente (outliers).
 
 Em resumo, as métricas fornecidas e as previsões obtidas sugerem que o modelo utilizado no Excel para prever o número de alunos apresenta resultados promissores. No entanto, é sempre importante analisar as métricas em conjunto com outros fatores e buscar maneiras de melhorar a precisão e a eficácia das previsões, levando em consideração as especificidades do problema em questão.
+
+
+-----------------------------------------------------------------------------  ETAPA 6 ----------------------------------------------------------------------
+Para realizar a análise dos dados do Censo da Educação Superior dos últimos cinco anos (2017-2021) e apresentar os principais resultados de forma sintética, é necessário ter acesso aos relatórios e dados completos do Inep sobre o censo. Alguns pontos relevantes podem incluir:
+
+Tendências de matrículas e evasão: Analisar o comportamento das matrículas e taxas de evasão ao longo dos anos, identificando possíveis padrões e fatores que influenciam a permanência dos alunos nas instituições de ensino superior. Compreender as razões da evasão pode direcionar estratégias para a retenção de alunos.
+
+Distribuição regional: Investigar a distribuição geográfica das instituições de ensino superior e comparar o acesso à educação em diferentes regiões. Identificar áreas com maior demanda e possíveis oportunidades para expansão de instituições de ensino.
+
+Análise dos cursos mais procurados: Identificar os cursos de graduação e sequenciais de formação específica mais populares ao longo dos anos e analisar a demanda por áreas de conhecimento específicas. Isso pode auxiliar na identificação de áreas de maior interesse dos estudantes e no direcionamento de esforços para atender às necessidades do mercado de trabalho.
+
+Perfil dos docentes: Analisar o perfil dos docentes vinculados aos cursos de graduação, como titulação, formação acadêmica e experiência profissional. Essa análise pode fornecer insights sobre a qualificação do corpo docente e a necessidade de capacitação e formação contínua.
+
+Oportunidades de mercado: Com base nas informações coletadas, identificar oportunidades de negócio no setor educacional, como a abertura de novas instituições, desenvolvimento de programas educacionais específicos, oferta de cursos de pós-graduação e educação continuada, entre outros.
