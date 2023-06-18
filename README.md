@@ -119,6 +119,7 @@ Em resumo, as métricas fornecidas e as previsões obtidas sugerem que o modelo 
 
 
 -----------------------------------------------------------------------------  ETAPA 6 ----------------------------------------------------------------------
+
 Para realizar a análise dos dados do Censo da Educação Superior dos últimos cinco anos (2017-2021) e apresentar os principais resultados de forma sintética, é necessário ter acesso aos relatórios e dados completos do Inep sobre o censo. Alguns pontos relevantes podem incluir:
 
 Tendências de matrículas e evasão: Analisar o comportamento das matrículas e taxas de evasão ao longo dos anos, identificando possíveis padrões e fatores que influenciam a permanência dos alunos nas instituições de ensino superior. Compreender as razões da evasão pode direcionar estratégias para a retenção de alunos.
